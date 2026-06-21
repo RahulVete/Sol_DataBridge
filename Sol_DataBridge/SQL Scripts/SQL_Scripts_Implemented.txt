@@ -1,0 +1,610 @@
+﻿CREATE TABLE tblImportBatch
+(
+    ImportBatchID UNIQUEIDENTIFIER PRIMARY KEY,
+    FileName VARCHAR(500),
+    ImportStartTime DATETIME,
+    ImportEndTime DATETIME,
+    Status VARCHAR(50),
+    TotalInvoices INT,
+    TotalItems INT,
+    TotalPairs INT,
+    ErrorMessage NVARCHAR(MAX)
+)
+
+--------------------------
+
+CREATE TABLE tblErrorLogger
+(
+    ErrorID BIGINT IDENTITY(1,1),
+    ImportBatchID UNIQUEIDENTIFIER,
+    ErrorDate DATETIME DEFAULT GETDATE(),
+    ErrorSource VARCHAR(500),
+    ErrorType VARCHAR(100),
+    ErrorMessage NVARCHAR(MAX),
+    StackTrace NVARCHAR(MAX),
+    FailedJson NVARCHAR(MAX)
+)
+
+----------------------
+
+CREATE TABLE tblValidationError
+(
+    ValidationID BIGINT IDENTITY(1,1),
+    ImportBatchID UNIQUEIDENTIFIER,
+    TableName VARCHAR(100),
+    FailedData NVARCHAR(MAX),
+    ValidationMessage NVARCHAR(MAX),
+    CreatedDate DATETIME DEFAULT GETDATE()
+)
+
+-------------------------------------------------------------------------------------
+
+CREATE TABLE tbl_Invoice_Stg
+(
+    InvoiceID UNIQUEIDENTIFIER,
+    ImportBatchID UNIQUEIDENTIFIER,
+
+    InvoiceNo VARCHAR(100),
+    InvoiceDate DATETIME,
+
+    PartyCode VARCHAR(100),
+    PartyName VARCHAR(500),
+
+    MasterID VARCHAR(100),
+
+    GrossAmount DECIMAL(18,2),
+
+    SoNo VARCHAR(100),
+    SoDate DATE,
+
+    PoNo VARCHAR(100),
+    PoDate DATE
+)
+
+---------------------------
+
+CREATE TABLE tbl_ItemList_Stg
+(
+    InvoiceItemID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    InvoiceID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+    ItemName VARCHAR(500),
+
+    Unit VARCHAR(50),
+
+    Quantity DECIMAL(18,2),
+
+    Rate DECIMAL(18,2),
+
+    MRP DECIMAL(18,2),
+
+    Amount DECIMAL(18,2),
+
+    IGST DECIMAL(18,2),
+
+    TotalAmount DECIMAL(18,2)
+)
+
+------------------------
+
+CREATE TABLE tbl_AssortmentDetail_Stg
+(
+    AssortmentID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    InvoiceID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+
+    UID VARCHAR(500)
+)
+
+-------------------------
+
+CREATE TABLE tbl_PackingInfo_Stg
+(
+    PackingInfoID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    AssortmentID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+
+    Quantity DECIMAL(18,2)
+)
+
+-----------------------
+
+CREATE TABLE tbl_PairDetail_Stg
+(
+    PairDetailID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    PackingInfoID UNIQUEIDENTIFIER,
+
+    PairQR VARCHAR(1000),
+
+    PairUID VARCHAR(100)
+)
+-----------------------------------------------------------------------------------------------------
+
+CREATE TABLE tblInvoice
+(
+    InvoiceID UNIQUEIDENTIFIER,
+    ImportBatchID UNIQUEIDENTIFIER,
+
+    InvoiceNo VARCHAR(100),
+    InvoiceDate DATETIME,
+
+    PartyCode VARCHAR(100),
+    PartyName VARCHAR(500),
+
+    MasterID VARCHAR(100),
+
+    GrossAmount DECIMAL(18,2),
+
+    SoNo VARCHAR(100),
+    SoDate DATE,
+
+    PoNo VARCHAR(100),
+    PoDate DATE
+)
+
+---------------------------
+
+CREATE TABLE tblInvoiceItem
+(
+    InvoiceItemID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    InvoiceID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+    ItemName VARCHAR(500),
+
+    Unit VARCHAR(50),
+
+    Quantity DECIMAL(18,2),
+
+    Rate DECIMAL(18,2),
+
+    MRP DECIMAL(18,2),
+
+    Amount DECIMAL(18,2),
+
+    IGST DECIMAL(18,2),
+
+    TotalAmount DECIMAL(18,2)
+)
+
+------------------------
+
+CREATE TABLE tblAssortmentDetail
+(
+    AssortmentID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    InvoiceID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+
+    UID VARCHAR(500)
+)
+
+-------------------------
+
+CREATE TABLE tblPackingInfo
+(
+    PackingInfoID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    AssortmentID UNIQUEIDENTIFIER,
+
+    ItemCode VARCHAR(100),
+
+    Quantity DECIMAL(18,2)
+)
+
+-----------------------
+
+CREATE TABLE tblPairDetail
+(
+    PairDetailID UNIQUEIDENTIFIER PRIMARY KEY,
+
+    PackingInfoID UNIQUEIDENTIFIER,
+
+    PairQR VARCHAR(1000),
+
+    PairUID VARCHAR(100)
+)
+
+--------------------------------------------------------------------------------------------------
+
+USE [DataBridge]
+GO
+/****** Object:  StoredProcedure [dbo].[usp_MoveStagingToFinal]    Script Date: 21-06-2026 20:03:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create or ALTER   PROCEDURE [dbo].[usp_MoveStagingToFinal]
+(
+    @ImportBatchID UNIQUEIDENTIFIER
+)
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+    SET XACT_ABORT ON;
+
+    BEGIN TRY
+
+        BEGIN TRAN;
+
+        ----------------------------------------------------
+        -- Invoice
+        ----------------------------------------------------
+        INSERT INTO tblInvoice
+        (
+            InvoiceID,
+            ImportBatchID,
+            InvoiceNo,
+            InvoiceDate,
+            PartyCode,
+            PartyName,
+            MasterID,
+            GrossAmount,
+            SoNo,
+            SoDate,
+            PoNo,
+            PoDate
+        )
+        SELECT
+            S.InvoiceID,
+            S.ImportBatchID,
+            S.InvoiceNo,
+            S.InvoiceDate,
+            S.PartyCode,
+            S.PartyName,
+            S.MasterID,
+            S.GrossAmount,
+            S.SoNo,
+            S.SoDate,
+            S.PoNo,
+            S.PoDate
+        FROM tbl_Invoice_Stg S  with (NoLock)
+        WHERE NOT EXISTS
+        (
+            SELECT 1
+            FROM tblInvoice F with (NoLock)
+            WHERE F.InvoiceNo = S.InvoiceNo
+        );
+
+        ----------------------------------------------------
+        -- Invoice Items
+        ----------------------------------------------------
+        INSERT INTO tblInvoiceItem
+        (
+            InvoiceItemID,
+            InvoiceID,
+            ItemCode,
+            ItemName,
+            Unit,
+            Quantity,
+            Rate,
+            MRP,
+            Amount,
+            IGST,
+            TotalAmount
+        )
+        SELECT
+            S.InvoiceItemID,
+            S.InvoiceID,
+            S.ItemCode,
+            S.ItemName,
+            S.Unit,
+            S.Quantity,
+            S.Rate,
+            S.MRP,
+            S.Amount,
+            S.IGST,
+            S.TotalAmount
+        FROM tbl_ItemList_Stg S with (NoLock)
+        WHERE NOT EXISTS
+        (
+            SELECT 1
+            FROM tblInvoiceItem F with (NoLock)
+            WHERE F.InvoiceID = S.InvoiceID
+            AND F.ItemCode = S.ItemCode
+        );
+
+        ----------------------------------------------------
+        -- Assortment Detail
+        ----------------------------------------------------
+        INSERT INTO tblAssortmentDetail
+        (
+            AssortmentID,
+            InvoiceID,
+            ItemCode,
+            UID
+        )
+        SELECT
+            S.AssortmentID,
+            S.InvoiceID,
+            S.ItemCode,
+            S.UID
+        FROM tbl_AssortmentDetail_Stg S with (NoLock)
+        WHERE NOT EXISTS
+        (
+            SELECT 1
+            FROM tblAssortmentDetail F with (NoLock)
+            WHERE F.UID = S.UID
+        );
+
+        ----------------------------------------------------
+        -- Packing Info
+        ----------------------------------------------------
+        INSERT INTO tblPackingInfo
+        (
+            PackingInfoID,
+            AssortmentID,
+            ItemCode,
+            Quantity
+        )
+        SELECT
+            S.PackingInfoID,
+            S.AssortmentID,
+            S.ItemCode,
+            S.Quantity
+        FROM tbl_PackingInfo_Stg S with (NoLock)
+        WHERE NOT EXISTS
+        (
+            SELECT 1
+            FROM tblPackingInfo F with (NoLock)
+            WHERE F.AssortmentID = S.AssortmentID
+              AND F.ItemCode = S.ItemCode
+        );
+
+        ----------------------------------------------------
+        -- Pair Detail
+        ----------------------------------------------------
+        INSERT INTO tblPairDetail
+        (
+            PairDetailID,
+            PackingInfoID,
+            PairQR,
+            PairUID
+        )
+        SELECT
+            S.PairDetailID,
+            S.PackingInfoID,
+            S.PairQR,
+            S.PairUID
+        FROM tbl_PairDetail_Stg S with (NoLock)
+        WHERE NOT EXISTS
+        (
+            SELECT 1
+            FROM tblPairDetail F with (NoLock)
+            WHERE F.PairUID = S.PairUID
+        );
+
+        ----------------------------------------------------
+        -- Cleanup Staging
+        ----------------------------------------------------
+        TRUNCATE TABLE tbl_PairDetail_Stg;
+        TRUNCATE TABLE tbl_PackingInfo_Stg;
+        TRUNCATE TABLE tbl_AssortmentDetail_Stg;
+        TRUNCATE TABLE tbl_ItemList_Stg;
+        TRUNCATE TABLE tbl_Invoice_Stg;
+
+        COMMIT TRAN;
+
+    END TRY
+    BEGIN CATCH
+
+        IF @@TRANCOUNT > 0
+            ROLLBACK TRAN;
+
+        INSERT INTO tblErrorLogger
+        (
+            ImportBatchID,
+            ErrorDate,
+            ErrorSource,
+            ErrorType,
+            ErrorMessage
+        )
+        VALUES
+        (
+            @ImportBatchID,
+            GETDATE(),
+            'usp_MoveStagingToFinal',
+            'SQL Exception',
+            ERROR_MESSAGE()
+        );
+
+        THROW;
+
+    END CATCH
+
+END;
+
+
+-----------------------------------------------------------
+
+
+
+CREATE or alter PROCEDURE dbo.usp_ImportBatch_Create
+(
+    @ImportBatchID UNIQUEIDENTIFIER,
+    @FileName NVARCHAR(255),
+    @Status NVARCHAR(50),
+    @CurrentStep NVARCHAR(100),
+    @TotalRecords INT,
+    @SuccessRecords INT,
+    @FailedRecords INT
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO dbo.tblImportBatch
+    (
+        ImportBatchID,
+        FileName,
+        Status,
+        CurrentStep,
+        TotalRecords,
+        SuccessRecords,
+        FailedRecords,
+        StartTime
+    )
+    VALUES
+    (
+        @ImportBatchID,
+        @FileName,
+        @Status,
+        @CurrentStep,
+        @TotalRecords,
+        @SuccessRecords,
+        @FailedRecords,
+        GETDATE()
+    );
+END
+GO
+
+------------------------------------------------------------------
+
+CREATE PROCEDURE dbo.usp_ImportBatch_UpdateStatus
+(
+    @ImportBatchID UNIQUEIDENTIFIER,
+    @Status NVARCHAR(50),
+    @CurrentStep NVARCHAR(100)
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE dbo.tblImportBatch
+    SET
+        Status = @Status,
+        CurrentStep = @CurrentStep
+    WHERE ImportBatchID = @ImportBatchID;
+END
+GO
+
+-------------------------------------------
+
+alter table tblImportBatch add 
+UpdatedDate datetime null
+
+------------------------------------------
+
+CREATE or alter PROCEDURE dbo.usp_ImportBatch_UpdateStatusTime
+(
+    @ImportBatchID UNIQUEIDENTIFIER,
+    @Status NVARCHAR(50)
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE dbo.tblImportBatch
+    SET
+        Status = @Status,
+        UpdatedDate = GETDATE()
+    WHERE ImportBatchID = @ImportBatchID;
+END
+GO
+
+------------------------------------------
+
+alter table tblValidationError add EntityName varchar (500)
+
+----------------------------------------
+
+CREATE or alter PROCEDURE dbo.usp_ValidationError_Insert
+(
+    @ImportBatchID UNIQUEIDENTIFIER,
+    @EntityName NVARCHAR(100),
+    @FailedData NVARCHAR(MAX),
+    @ValidationMessage NVARCHAR(MAX)
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO dbo.tblValidationError
+    (
+        ImportBatchID,
+        EntityName,
+        FailedData,
+        ValidationMessage
+    )
+    VALUES
+    (
+        @ImportBatchID,
+        @EntityName,
+        @FailedData,
+        @ValidationMessage
+    );
+END
+GO
+
+----------------------------------------
+
+CREATE or alter PROCEDURE dbo.usp_TruncateStagingTables
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    TRUNCATE TABLE dbo.tbl_PairDetail_Stg;
+    TRUNCATE TABLE dbo.tbl_PackingInfo_Stg;
+    TRUNCATE TABLE dbo.tbl_AssortmentDetail_Stg;
+    TRUNCATE TABLE dbo.tbl_ItemList_Stg;
+    TRUNCATE TABLE dbo.tbl_Invoice_Stg;
+END
+GO
+
+-------------------------------------
+
+alter table dbo.tblErrorLogger add SourceClass varchar(500) null, 
+SourceMethod  varchar(500) null,
+InnerException varchar(500) null,
+JsonSnippet varchar(500) null
+
+-----------------------------------------------
+
+CREATE or alter PROCEDURE dbo.usp_ErrorLogger_Insert
+(
+    @ImportBatchID UNIQUEIDENTIFIER = NULL,
+    @SourceClass NVARCHAR(255),
+    @SourceMethod NVARCHAR(255),
+    @ErrorMessage NVARCHAR(MAX),
+    @InnerException NVARCHAR(MAX) = NULL,
+    @StackTrace NVARCHAR(MAX) = NULL,
+    @JsonSnippet NVARCHAR(MAX) = NULL
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO dbo.tblErrorLogger
+    (
+        ImportBatchID,
+        SourceClass,
+        SourceMethod,
+        ErrorMessage,
+        InnerException,
+        StackTrace,
+        JsonSnippet
+    )
+    VALUES
+    (
+        @ImportBatchID,
+        @SourceClass,
+        @SourceMethod,
+        @ErrorMessage,
+        @InnerException,
+        @StackTrace,
+        @JsonSnippet
+    );
+END
+GO
+
+-------------------------------

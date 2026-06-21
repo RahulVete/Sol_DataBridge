@@ -1,0 +1,2288 @@
+{
+    "invoiceno": "IN1242000020-Return-1",
+    "invoicedate": "2026-06-01T00:00:00+05:30",
+    "partycode": "310J36",
+    "partyname": "JINDAL MARKETING",
+    "masterid": "5110063918",
+    "grossamount": 169212,
+    "sono": "1110000058",
+    "sodate": "2025-04-05",
+    "pono": "310J36",
+    "podate": "0000-00-00",
+    "itemlist": [
+        {
+            "itemcode": "S1823J-04-4L7-2442-1",
+            "itemname": "CROWN NEW",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 635.82,
+            "mrp": 1119.0,
+            "amount": 7629.79,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 8545.36
+        },
+        {
+            "itemcode": "S1823J-04-5L8-2442",
+            "itemname": "CROWN NEW",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 635.82,
+            "mrp": 1119.0,
+            "amount": 7629.79,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 8545.36
+        },
+        {
+            "itemcode": "S1933-02-4L7-2442",
+            "itemname": "NORIKA",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 635.82,
+            "mrp": 1119.0,
+            "amount": 7629.79,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 8545.36
+        },
+        {
+            "itemcode": "S1933-02-5L8-2442",
+            "itemname": "NORIKA",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 635.82,
+            "mrp": 1119.0,
+            "amount": 7629.79,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 8545.36
+        },
+        {
+            "itemcode": "S1964VA-01-11K1-6666",
+            "itemname": "SRM-05V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 340.35,
+            "mrp": 599.0,
+            "amount": 8168.44,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 9148.65
+        },
+        {
+            "itemcode": "S1964VA-03-11K1-6666",
+            "itemname": "SRM-05V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 340.35,
+            "mrp": 599.0,
+            "amount": 8168.44,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 9148.65
+        },
+        {
+            "itemcode": "S2598-02-4L7-2442",
+            "itemname": "RITZEY",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 510.81,
+            "mrp": 899.0,
+            "amount": 6129.74,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6865.31
+        },
+        {
+            "itemcode": "S2598-02-5L8-2442",
+            "itemname": "RITZEY",
+            "unit": "Pair",
+            "quantity": 12.0,
+            "rate": 510.81,
+            "mrp": 899.0,
+            "amount": 6129.74,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6865.31
+        },
+        {
+            "itemcode": "S2869-01-8K10-888",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10213.96,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.64
+        },
+        {
+            "itemcode": "S2869-01-9K10-1212",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10213.96,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.64
+        },
+        {
+            "itemcode": "S2869-02-8K10-888",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10213.96,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.64
+        },
+        {
+            "itemcode": "S2869-02-9K10-1212",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10213.96,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.64
+        },
+        {
+            "itemcode": "S2869-03-8K10-888",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10213.96,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.64
+        },
+        {
+            "itemcode": "S2869-03-9K10-1212",
+            "itemname": "LD-02V",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 425.58,
+            "mrp": 749.0,
+            "amount": 10214.01,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 11439.69
+        },
+        {
+            "itemcode": "SL0466A-01-11K1-6666",
+            "itemname": "DRS-313",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 255.69,
+            "mrp": 450.0,
+            "amount": 6136.56,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6872.95
+        },
+        {
+            "itemcode": "SL0466A-01-8K10-888",
+            "itemname": "DRS-313",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 255.69,
+            "mrp": 450.0,
+            "amount": 6136.56,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6872.95
+        },
+        {
+            "itemcode": "SL0484A-02-11K1-6666",
+            "itemname": "SL-626",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 255.69,
+            "mrp": 450.0,
+            "amount": 6136.56,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6872.95
+        },
+        {
+            "itemcode": "SL0484A-02-8K10-888",
+            "itemname": "SL-626",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 255.69,
+            "mrp": 450.0,
+            "amount": 6136.56,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6872.95
+        },
+        {
+            "itemcode": "SL0484A-04-11K1-6666",
+            "itemname": "SL-626",
+            "unit": "Pair",
+            "quantity": 24.0,
+            "rate": 255.69,
+            "mrp": 450.0,
+            "amount": 6136.56,
+            "cess": "",
+            "igst": 12,
+            "totalamount": 6872.95
+        }
+    ],
+    "assortmentdetail": [
+        {
+            "itemcode": "S1823J-04-4L7-2442-1",
+            "uid": "o4s.in/22F.cAWY38",
+            "packingInfo": [
+                {
+                    "itemcode": "S1823J-04-L4",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.pPGfDb?x=8907270872219",
+                            "pairuid": "55184626533"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13exQOT?x=8907270872219",
+                            "pairuid": "72627365405"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.YciER4?x=8907270872233",
+                            "pairuid": "37156349636"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.xLeYiF?x=8907270872233",
+                            "pairuid": "63713717007"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.GS7cL-?x=8907270872233",
+                            "pairuid": "17651623295"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.10uiv1t?x=8907270872233",
+                            "pairuid": "69670768759"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L7",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.GgU1FJ?x=8907270872240",
+                            "pairuid": "17892381651"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.r6KP2M?x=8907270872240",
+                            "pairuid": "57014325398"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L5",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.q2ITHa?x=8907270872226",
+                            "pairuid": "55872967780"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.L-9emM?x=8907270872226",
+                            "pairuid": "23608069142"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1311mFv?x=8907270872226",
+                            "pairuid": "71957939193"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.PjHP4e?x=8907270872226",
+                            "pairuid": "27603079464"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S1823J-04-5L8-2442",
+            "uid": "o4s.in/22F.9zffo0",
+            "packingInfo": [
+                {
+                    "itemcode": "S1823J-04-L7",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.11CC0Gr?x=8907270872240",
+                            "pairuid": "69997691957"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.11VkcmM?x=8907270872240",
+                            "pairuid": "70325529622"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1JuJhSi?x=8907270872240",
+                            "pairuid": "90065254188"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.aV_Djy?x=8907270872240",
+                            "pairuid": "39191108476"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L8",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.zbbZty?x=8907270872257",
+                            "pairuid": "66128854524"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1KpHlOR?x=8907270872257",
+                            "pairuid": "91054601755"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.QWwn63?x=8907270872233",
+                            "pairuid": "28469563779"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1S5ntH6?x=8907270872233",
+                            "pairuid": "98881205318"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1EVjFhT?x=8907270872233",
+                            "pairuid": "84283816669"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.9sXlDD?x=8907270872233",
+                            "pairuid": "10578490189"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1823J-04-L5",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.DAkFx8?x=8907270872226",
+                            "pairuid": "14138539720"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.mHB1GD?x=8907270872226",
+                            "pairuid": "51827708941"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S1933-02-4L7-2442",
+            "uid": "o4s.in/22F.lRFdcp",
+            "packingInfo": [
+                {
+                    "itemcode": "S1933-02-L4",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.PqII6I?x=8907270961401",
+                            "pairuid": "27720753554"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wgMFcB?x=8907270961401",
+                            "pairuid": "62987499915"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.UZaNBE?x=8907270961425",
+                            "pairuid": "32808989390"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1M-lJTK?x=8907270961425",
+                            "pairuid": "93411161940"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.EHH3gX?x=8907270961425",
+                            "pairuid": "15322069665"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.17HDhQe?x=8907270961425",
+                            "pairuid": "76524467880"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L5",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.Zim3In?x=8907270961418",
+                            "pairuid": "38331757745"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wuTcBj?x=8907270961418",
+                            "pairuid": "63224308461"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.RQijix?x=8907270961418",
+                            "pairuid": "29438958395"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.T2fUrm?x=8907270961418",
+                            "pairuid": "31182941552"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L7",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1Kbjmmf?x=8907270961432",
+                            "pairuid": "90827066409"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.j50gIN?x=8907270961432",
+                            "pairuid": "48402441367"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S1933-02-5L8-2442",
+            "uid": "o4s.in/22F.Ezibfl",
+            "packingInfo": [
+                {
+                    "itemcode": "S1933-02-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.AbgEDz?x=8907270961425",
+                            "pairuid": "11369243517"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.9xZ95J?x=8907270961425",
+                            "pairuid": "10662744403"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ssHaQ8?x=8907270961425",
+                            "pairuid": "58892633736"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Ss5TJV?x=8907270961425",
+                            "pairuid": "99691648223"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L8",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.D9EjGe?x=8907270961449",
+                            "pairuid": "14113494056"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.nJPefp?x=8907270961449",
+                            "pairuid": "52938836595"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L7",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.11u4rYJ?x=8907270961432",
+                            "pairuid": "70734010515"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.j4C1gm?x=8907270961432",
+                            "pairuid": "48388643504"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.KTmsBz?x=8907270961432",
+                            "pairuid": "21974180605"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.LSMSOc?x=8907270961432",
+                            "pairuid": "23024223782"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1933-02-L5",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.9Tpo4x?x=8907270961418",
+                            "pairuid": "10163790139"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1KJpwgv?x=8907270961418",
+                            "pairuid": "90526689977"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S1964VA-01-11K1-6666",
+            "uid": "o4s.in/22F.iSGp5L",
+            "packingInfo": [
+                {
+                    "itemcode": "S1964VA-01-K12",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.B331S3?x=8905701285911",
+                            "pairuid": "11862284035"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Le0Sy3?x=8905701285911",
+                            "pairuid": "23219785475"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1GspI0c?x=8905701285911",
+                            "pairuid": "86818758694"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.hAuQOc?x=8905701285911",
+                            "pairuid": "46353458726"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.QWqR3X?x=8905701285911",
+                            "pairuid": "28467900641"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.npB-nz?x=8905701285911",
+                            "pairuid": "53472132221"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-01-K13",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.9rINPQ?x=8905701285928",
+                            "pairuid": "10557683290"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.MOrH1d?x=8905701285928",
+                            "pairuid": "24038936679"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.bAl-II?x=8905701285928",
+                            "pairuid": "39908799634"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13Mk_fl?x=8905701285928",
+                            "pairuid": "72322116207"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.h7YoSV?x=8905701285928",
+                            "pairuid": "46297458463"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15HTZl0?x=8905701285928",
+                            "pairuid": "74381147072"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-01-K1",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.140DytC?x=8905701285935",
+                            "pairuid": "73018101196"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.bOK3im?x=8905701285935",
+                            "pairuid": "40136358704"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PAPcIl?x=8905701285935",
+                            "pairuid": "95737504943"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.M0WCkw?x=8905701285935",
+                            "pairuid": "23630760890"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.gT8r10?x=8905701285935",
+                            "pairuid": "45586010176"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Kf69ai?x=8905701285935",
+                            "pairuid": "22164314412"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-01-K11",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.VMTzgj?x=8905701285904",
+                            "pairuid": "33662950061"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.pPbheK?x=8905701285904",
+                            "pairuid": "55190141460"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1MCUMGq?x=8905701285904",
+                            "pairuid": "92551078964"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.qGK9tv?x=8905701285904",
+                            "pairuid": "56108293625"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BAWon7?x=8905701285904",
+                            "pairuid": "80707005511"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1I4nlc6?x=8905701285904",
+                            "pairuid": "88126978438"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S1964VA-03-11K1-6666",
+            "uid": "o4s.in/22F.nngWs7",
+            "packingInfo": [
+                {
+                    "itemcode": "S1964VA-03-K1",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.YS1g_w?x=8905701278456",
+                            "pairuid": "36977422266"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.-KUyd8?x=8905701278456",
+                            "pairuid": "67989391816"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.E2Omvb?x=8905701278456",
+                            "pairuid": "15072431717"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.jpTjCA?x=8905701278456",
+                            "pairuid": "49181807370"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.10TG5HU?x=8905701278456",
+                            "pairuid": "69210231902"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.HhJ8KA?x=8905701278456",
+                            "pairuid": "18980046090"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-03-K11",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.dAq1c0?x=8905701278425",
+                            "pairuid": "42057341312"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15EKsXC?x=8905701278425",
+                            "pairuid": "74328533068"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Pd_JTz?x=8905701278425",
+                            "pairuid": "27514189693"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.tWWdDy?x=8905701278425",
+                            "pairuid": "59601220476"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ua8XTC?x=8905701278425",
+                            "pairuid": "60735756108"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Ki7MWT?x=8905701278425",
+                            "pairuid": "90934437917"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-03-K13",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1PvL7K-?x=8905701278449",
+                            "pairuid": "96524858687"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.hx1pb2?x=8905701278449",
+                            "pairuid": "47161227586"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.11aGPPC?x=8905701278449",
+                            "pairuid": "70401496652"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.tuxALf?x=8905701278449",
+                            "pairuid": "60010833257"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.OrxveE?x=8905701278449",
+                            "pairuid": "26674698766"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.P_u4oN?x=8905701278449",
+                            "pairuid": "27898432663"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S1964VA-03-K12",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.oFrfr2?x=8905701278432",
+                            "pairuid": "53952814402"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.DT2Ejj?x=8905701278432",
+                            "pairuid": "14445767533"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1FfRVLj?x=8905701278432",
+                            "pairuid": "85520676205"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ORe0Xn?x=8905701278432",
+                            "pairuid": "26233276529"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.DxTsUt?x=8905701278432",
+                            "pairuid": "14956324791"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.djpRAs?x=8905701278432",
+                            "pairuid": "42644386486"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2598-02-4L7-2442",
+            "uid": "o4s.in/22F.tKCF4s",
+            "packingInfo": [
+                {
+                    "itemcode": "S2598-02-L4",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.-jfe21?x=8905701212757",
+                            "pairuid": "68411621505"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ipow74?x=8905701212757",
+                            "pairuid": "48113623492"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.EgS42o?x=8905701212771",
+                            "pairuid": "15744385202"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.WrtHuA?x=8905701212771",
+                            "pairuid": "35263421962"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1H1_dA3?x=8905701212771",
+                            "pairuid": "87006278275"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1SLv--t?x=8905701212771",
+                            "pairuid": "99151773687"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L5",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.geoK11?x=8905701212764",
+                            "pairuid": "45781434433"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wUuICG?x=8905701212764",
+                            "pairuid": "62795096848"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.FaDPed?x=8905701212764",
+                            "pairuid": "16713620007"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.WbnyhO?x=8905701212764",
+                            "pairuid": "34993588952"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L7",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.MRx35e?x=8905701212788",
+                            "pairuid": "24090784104"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.p0cAB0?x=8905701212788",
+                            "pairuid": "54770836160"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2598-02-5L8-2442",
+            "uid": "o4s.in/22F._0qT9r",
+            "packingInfo": [
+                {
+                    "itemcode": "S2598-02-L7",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1GaupPM?x=8905701212788",
+                            "pairuid": "86518216278"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.10rmotU?x=8905701212788",
+                            "pairuid": "69621460446"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.KDr_cQ?x=8905701212788",
+                            "pairuid": "21707090330"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ed9KMW?x=8905701212788",
+                            "pairuid": "43606427040"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L8",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.AJcmJ7?x=8905701212795",
+                            "pairuid": "11066344647"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Mf47Mk?x=8905701212795",
+                            "pairuid": "24311264686"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L5",
+                    "quantity": 2.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.13geeWR?x=8905701212764",
+                            "pairuid": "72655996955"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.KIvvbB?x=8905701212764",
+                            "pairuid": "21792004427"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2598-02-L6",
+                    "quantity": 4.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1Dq_wgY?x=8905701212771",
+                            "pairuid": "83567028898"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.cRTxxj?x=8905701212771",
+                            "pairuid": "41263021805"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1EUUfWi?x=8905701212771",
+                            "pairuid": "84263213100"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.C1SMqi?x=8905701212771",
+                            "pairuid": "12909112620"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-01-8K10-888",
+            "uid": "o4s.in/22F.gU6-dz",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-01-K9",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.OI6Say?x=8905701303721",
+                            "pairuid": "26073483580"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1JtWtt_?x=8905701303721",
+                            "pairuid": "90051935742"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.S-ox6a?x=8905701303721",
+                            "pairuid": "31135084964"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.eImPlC?x=8905701303721",
+                            "pairuid": "43264351180"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1AblWCp?x=8905701303721",
+                            "pairuid": "80090104627"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.SW6G0O?x=8905701303721",
+                            "pairuid": "30603280408"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.sn2fEx?x=8905701303721",
+                            "pairuid": "58804835259"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.18wpXLa?x=8905701303721",
+                            "pairuid": "78295995748"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-01-K10",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.dQn0s7?x=8905701303738",
+                            "pairuid": "42324987271"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.oZOX-Q?x=8905701303738",
+                            "pairuid": "54280724442"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.cGeR0n?x=8905701303738",
+                            "pairuid": "41081221169"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.b4HzlM?x=8905701303738",
+                            "pairuid": "39800265686"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.P0OxRH?x=8905701303738",
+                            "pairuid": "26850080465"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13h6pve?x=8905701303738",
+                            "pairuid": "72663907944"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Mw9cVU?x=8905701303738",
+                            "pairuid": "24597915614"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.X4Kqw3?x=8905701303738",
+                            "pairuid": "35506048643"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-01-K8",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.18vcjhQ?x=8905701303714",
+                            "pairuid": "78275861210"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.edXud8?x=8905701303714",
+                            "pairuid": "43612867016"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.w8POdf?x=8905701303714",
+                            "pairuid": "62417897961"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.147_i9a?x=8905701303714",
+                            "pairuid": "73148318308"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.YyRUmE?x=8905701303714",
+                            "pairuid": "37521058830"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.qrQG2S?x=8905701303714",
+                            "pairuid": "56730648732"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.tmB47U?x=8905701303714",
+                            "pairuid": "59864007134"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Ccpt-j?x=8905701303714",
+                            "pairuid": "13536034797"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-01-9K10-1212",
+            "uid": "o4s.in/22F.-s8vO4",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-01-K9",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.gilQAc?x=8905701303721",
+                            "pairuid": "45847782054"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.tU6LiT?x=8905701303721",
+                            "pairuid": "59560778525"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.e4Fxau?x=8905701303721",
+                            "pairuid": "43020958008"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1JgVCOP?x=8905701303721",
+                            "pairuid": "89833391641"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1DKGTSl?x=8905701303721",
+                            "pairuid": "83017979695"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1MDOBsk?x=8905701303721",
+                            "pairuid": "92566240686"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.DvD6_H?x=8905701303721",
+                            "pairuid": "14918381457"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.9xNQFT?x=8905701303721",
+                            "pairuid": "10659668957"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.NH4MAw?x=8905701303721",
+                            "pairuid": "24982414010"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.RShKlt?x=8905701303721",
+                            "pairuid": "29472148471"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.t8-sqb?x=8905701303721",
+                            "pairuid": "59206757669"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.14sH62F?x=8905701303721",
+                            "pairuid": "73924894863"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-01-K10",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.eBXaWE?x=8905701303738",
+                            "pairuid": "43143022606"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.c9Eo6w?x=8905701303738",
+                            "pairuid": "40957059514"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.PPHubB?x=8905701303738",
+                            "pairuid": "27267664203"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1INbNeF?x=8905701303738",
+                            "pairuid": "88442501647"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.yvmmtU?x=8905701303738",
+                            "pairuid": "65393593822"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1KgCbEz?x=8905701303738",
+                            "pairuid": "90902254525"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1NX_gyT?x=8905701303738",
+                            "pairuid": "93985615645"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1RQurDf?x=8905701303738",
+                            "pairuid": "98161611625"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.GPTq1H?x=8905701303738",
+                            "pairuid": "17607114833"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.G_pSLA?x=8905701303738",
+                            "pairuid": "18233541962"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.QFS5nK?x=8905701303738",
+                            "pairuid": "28176309332"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.pUYxZw?x=8905701303738",
+                            "pairuid": "55273306362"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-02-8K10-888",
+            "uid": "o4s.in/22F.HyvNcL",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-02-K8",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.IrS4vp?x=8905701298041",
+                            "pairuid": "20223905395"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.19I-biv?x=8905701298041",
+                            "pairuid": "78701812537"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.xZXfOV?x=8905701298041",
+                            "pairuid": "63946790431"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.LmoWH2?x=8905701298041",
+                            "pairuid": "23367124034"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.HhRoSd?x=8905701298041",
+                            "pairuid": "18982315815"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.vor6TU?x=8905701298041",
+                            "pairuid": "62056064862"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.neF2hj?x=8905701298041",
+                            "pairuid": "53288381165"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.lJYCeI?x=8905701298041",
+                            "pairuid": "50793597458"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-02-K10",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.yFJsnl?x=8905701298065",
+                            "pairuid": "64681372783"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.174HnCy?x=8905701298065",
+                            "pairuid": "76307436348"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Yoy2xf?x=8905701298065",
+                            "pairuid": "37361823465"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ajO2Us?x=8905701298065",
+                            "pairuid": "39415982006"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.xqb7aQ?x=8905701298065",
+                            "pairuid": "64232913178"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1A5QDq-?x=8905701298065",
+                            "pairuid": "79547653439"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Rv2cRr?x=8905701298065",
+                            "pairuid": "98667489013"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.q3S60R?x=8905701298065",
+                            "pairuid": "55892271131"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-02-K9",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.gQNKqE?x=8905701298058",
+                            "pairuid": "45539478798"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13m7e5L?x=8905701298058",
+                            "pairuid": "72748007765"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.199qvUd?x=8905701298058",
+                            "pairuid": "78548015015"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.S5UN4E?x=8905701298058",
+                            "pairuid": "30156615950"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.T6qq1u?x=8905701298058",
+                            "pairuid": "31253020792"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Z3Rqsp?x=8905701298058",
+                            "pairuid": "37638589875"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.aNC7SY?x=8905701298058",
+                            "pairuid": "39043757858"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1R_Ub6k?x=8905701298058",
+                            "pairuid": "98758709678"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-02-9K10-1212",
+            "uid": "o4s.in/22F.Veg3IF",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-02-K9",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.xreKP4?x=8905701298058",
+                            "pairuid": "64250529348"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.O_I9iB?x=8905701298058",
+                            "pairuid": "26814749451"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1DY5Sdg?x=8905701298058",
+                            "pairuid": "83249973738"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.12bYBHE?x=8905701298058",
+                            "pairuid": "71496676430"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1OCiqrr?x=8905701298058",
+                            "pairuid": "94702357877"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1RPJBEW?x=8905701298058",
+                            "pairuid": "98134963104"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.CzxPRp?x=8905701298058",
+                            "pairuid": "13923882739"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.AQvd0k?x=8905701298058",
+                            "pairuid": "11188727854"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1CAsfMF?x=8905701298058",
+                            "pairuid": "81786475919"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1E71-C3?x=8905701298058",
+                            "pairuid": "83869823747"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Im1OYx?x=8905701298058",
+                            "pairuid": "88852498619"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.VtoKvR?x=8905701298058",
+                            "pairuid": "34221936219"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.vKDmA3?x=8905701298058",
+                            "pairuid": "61542433411"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-02-K10",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.S7xpQc?x=8905701298065",
+                            "pairuid": "30197888678"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.LE8u_0?x=8905701298065",
+                            "pairuid": "22785789824"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1IK7o4O?x=8905701298065",
+                            "pairuid": "88384413976"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.SCJ4pt?x=8905701298065",
+                            "pairuid": "30271098103"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PCNDhr?x=8905701298065",
+                            "pairuid": "95770434293"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.VcpAc_?x=8905701298065",
+                            "pairuid": "33936943550"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1QjGqjP?x=8905701298065",
+                            "pairuid": "97396149081"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PHhrYB?x=8905701298065",
+                            "pairuid": "95859726475"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.JK7rtV?x=8905701298065",
+                            "pairuid": "20738694623"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.lSpqcI?x=8905701298065",
+                            "pairuid": "50949212562"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.H76wqe?x=8905701298065",
+                            "pairuid": "18372865320"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.aJMsWa?x=8905701298065",
+                            "pairuid": "38979463204"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-03-8K10-888",
+            "uid": "o4s.in/22F.bzsIrJ",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-03-K8",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.wVPL9g?x=8905701297907",
+                            "pairuid": "62803759722"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.fw-t4J?x=8905701297907",
+                            "pairuid": "45013233939"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.gLsYeH?x=8905701297907",
+                            "pairuid": "45463775761"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Mzzx0X?x=8905701297907",
+                            "pairuid": "93381439521"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1NSdEZO?x=8905701297907",
+                            "pairuid": "93895583960"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.yTT9D1?x=8905701297907",
+                            "pairuid": "64918688577"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.14rjt5j?x=8905701297907",
+                            "pairuid": "73915658605"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1R9-7Hq?x=8905701297907",
+                            "pairuid": "97878045812"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-03-K9",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.sHlzAJ?x=8905701297914",
+                            "pairuid": "58279842451"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BSKaib?x=8905701297914",
+                            "pairuid": "81005792037"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PU979J?x=8905701297914",
+                            "pairuid": "96068727379"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Yil4Fv?x=8905701297914",
+                            "pairuid": "37257757689"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1LgO8UO?x=8905701297914",
+                            "pairuid": "91979024280"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.19gG3qj?x=8905701297914",
+                            "pairuid": "79092006189"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.U8RL-V?x=8905701297914",
+                            "pairuid": "32353640415"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1C9CmOy?x=8905701297914",
+                            "pairuid": "81758717500"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-03-K10",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.XSK2dp?x=8905701297921",
+                            "pairuid": "35908495859"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.18zTKrG?x=8905701297921",
+                            "pairuid": "78340509008"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PXQad6?x=8905701297921",
+                            "pairuid": "96123636166"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15ZpCag?x=8905701297921",
+                            "pairuid": "74688809258"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.NNRmn7?x=8905701297921",
+                            "pairuid": "25089215559"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.UI7io1?x=8905701297921",
+                            "pairuid": "32516263041"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1K9Dz-6?x=8905701297921",
+                            "pairuid": "90348969926"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.N8FuMJ?x=8905701297921",
+                            "pairuid": "24834442643"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "S2869-03-9K10-1212",
+            "uid": "o4s.in/22F.16LjcH3",
+            "packingInfo": [
+                {
+                    "itemcode": "S2869-03-K9",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.DRpSFP?x=8905701297914",
+                            "pairuid": "14425113561"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15TG7CP?x=8905701297914",
+                            "pairuid": "74578948889"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.R4QMBC?x=8905701297914",
+                            "pairuid": "29065044684"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.HTgTod?x=8905701297914",
+                            "pairuid": "18751282343"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.hBSkzV?x=8905701297914",
+                            "pairuid": "46362980191"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Npausb?x=8905701297914",
+                            "pairuid": "94280846757"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ZGnyuA?x=8905701297914",
+                            "pairuid": "37862493706"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1M4ht-C?x=8905701297914",
+                            "pairuid": "92420407244"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1243w8T?x=8905701297914",
+                            "pairuid": "70935093789"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.qZ_ODn?x=8905701297914",
+                            "pairuid": "56438129521"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.LcXW_J?x=8905701297914",
+                            "pairuid": "23194898323"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wid2Bq?x=8905701297914",
+                            "pairuid": "63025455860"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "S2869-03-K10",
+                    "quantity": 12.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1MTmsDb?x=8905701297921",
+                            "pairuid": "92841141093"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Kjge43?x=8905701297921",
+                            "pairuid": "22240985347"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Pgnw-u?x=8905701297921",
+                            "pairuid": "27561275384"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.BZMFii?x=8905701297921",
+                            "pairuid": "12404194092"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1IGIxjw?x=8905701297921",
+                            "pairuid": "88320228218"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.16Gr1uk?x=8905701297921",
+                            "pairuid": "75444264494"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.-77_hn?x=8905701297921",
+                            "pairuid": "67765267185"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Hf7M7T?x=8905701297921",
+                            "pairuid": "87662879197"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ENHZI_?x=8905701297921",
+                            "pairuid": "15422862526"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BjzHWB?x=8905701297921",
+                            "pairuid": "81301673995"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.EoDE2V?x=8905701297921",
+                            "pairuid": "15874711711"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.fHVqZ8?x=8905701297921",
+                            "pairuid": "44316969160"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "SL0466A-01-11K1-6666",
+            "uid": "o4s.in/22F.1HCSh9P",
+            "packingInfo": [
+                {
+                    "itemcode": "SL0466A-01-K12",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1OQMLSE?x=8905701264503",
+                            "pairuid": "94931343118"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.WjJ1bH?x=8905701264503",
+                            "pairuid": "35119700305"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.gp_Y2C?x=8905701264503",
+                            "pairuid": "45969186956"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.lrbUnl?x=8905701264503",
+                            "pairuid": "51364883567"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F._FcZb3?x=8905701264503",
+                            "pairuid": "66833758531"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PBWSih?x=8905701264503",
+                            "pairuid": "95756077867"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0466A-01-K1",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.13tHZ6s?x=8905701264527",
+                            "pairuid": "72868049334"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1MDclns?x=8905701264527",
+                            "pairuid": "92570057846"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.16X1hEd?x=8905701264527",
+                            "pairuid": "75716015015"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1SV1Wha?x=8905701264527",
+                            "pairuid": "99304737508"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.oEStID?x=8905701264527",
+                            "pairuid": "53929538701"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.jMLjTX?x=8905701264527",
+                            "pairuid": "48693172065"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0466A-01-K11",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.E1XEf7?x=8905701264497",
+                            "pairuid": "15057873479"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.RsuZt3?x=8905701264497",
+                            "pairuid": "29911825859"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.nnO59O?x=8905701264497",
+                            "pairuid": "53441745496"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.WDA_Rp?x=8905701264497",
+                            "pairuid": "34580719347"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.186Lnjd?x=8905701264497",
+                            "pairuid": "77415783271"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13pjbzV?x=8905701264497",
+                            "pairuid": "72808292191"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0466A-01-K13",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1Irz3Ca?x=8905701264510",
+                            "pairuid": "88952025892"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15S1bvc?x=8905701264510",
+                            "pairuid": "74558365286"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.k4MeS3?x=8905701264510",
+                            "pairuid": "49465165571"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.14ezLpJ?x=8905701264510",
+                            "pairuid": "73701612755"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.w2VfZR?x=8905701264510",
+                            "pairuid": "62318876891"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.FJuxGz?x=8905701264510",
+                            "pairuid": "16439817277"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "SL0466A-01-8K10-888",
+            "uid": "o4s.in/22F.1OlNc02",
+            "packingInfo": [
+                {
+                    "itemcode": "SL0466A-01-K10",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.17PKHn2?x=8905701264480",
+                            "pairuid": "76660415554"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.kkcADQ?x=8905701264480",
+                            "pairuid": "50173879130"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F._m3GtQ?x=8905701264480",
+                            "pairuid": "67378154970"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.MM-vha?x=8905701264480",
+                            "pairuid": "24008170212"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1JYXxFk?x=8905701264480",
+                            "pairuid": "89699890158"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Kl3fS9?x=8905701264480",
+                            "pairuid": "90983798537"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wZ-wqj?x=8905701264480",
+                            "pairuid": "62880984365"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.KKs770?x=8905701264480",
+                            "pairuid": "21824565696"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0466A-01-K8",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.wHHrim?x=8905701264466",
+                            "pairuid": "62566914864"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.19IGoRH?x=8905701264466",
+                            "pairuid": "78689543889"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1D0CTgi?x=8905701264466",
+                            "pairuid": "82681387692"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.uxFpei?x=8905701264466",
+                            "pairuid": "61123541548"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wGD-Je?x=8905701264466",
+                            "pairuid": "62549128424"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.14iz7vw?x=8905701264466",
+                            "pairuid": "73768664698"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.NoDSEY?x=8905701264466",
+                            "pairuid": "25538446242"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Qiq_6I?x=8905701264466",
+                            "pairuid": "97388847506"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0466A-01-K9",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.DkV-SS?x=8905701264473",
+                            "pairuid": "14738781980"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1Dn358H?x=8905701264473",
+                            "pairuid": "83501011473"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.CJgrhZ?x=8905701264473",
+                            "pairuid": "13214898915"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Ut3VpU?x=8905701264473",
+                            "pairuid": "33135918302"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.e4L2gb?x=8905701264473",
+                            "pairuid": "43022297765"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.wwOXcj?x=8905701264473",
+                            "pairuid": "63256533421"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.RWxpzo?x=8905701264473",
+                            "pairuid": "29543579506"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.k4xlOn?x=8905701264473",
+                            "pairuid": "49474893361"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "SL0484A-02-11K1-6666",
+            "uid": "o4s.in/22F.WGxWc2",
+            "packingInfo": [
+                {
+                    "itemcode": "SL0484A-02-K12",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.k8w_nU?x=8905701272171",
+                            "pairuid": "49541803102"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BtjgWE?x=8905701272171",
+                            "pairuid": "81465354254"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.EK_91h?x=8905701272171",
+                            "pairuid": "15384219755"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Kzv1tc?x=8905701272171",
+                            "pairuid": "22513196518"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1ANmyJ8?x=8905701272171",
+                            "pairuid": "79855600840"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.10rkO13?x=8905701272171",
+                            "pairuid": "69620826179"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-02-K13",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.GYeLXl?x=8905701272188",
+                            "pairuid": "17760868463"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Qjv3N8?x=8905701272188",
+                            "pairuid": "28687218120"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.YL6dMJ?x=8905701272188",
+                            "pairuid": "36861277587"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1AzYCeN?x=8905701272188",
+                            "pairuid": "80489269783"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.F1phO2?x=8905701272188",
+                            "pairuid": "16136451586"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.xpzo_p?x=8905701272188",
+                            "pairuid": "64222605235"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-02-K11",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.lnB3r3?x=8905701272164",
+                            "pairuid": "51290848579"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.A4DTLx?x=8905701272164",
+                            "pairuid": "10808055163"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.YR7N2C?x=8905701272164",
+                            "pairuid": "36962136204"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.n1pgbL?x=8905701272164",
+                            "pairuid": "52643670357"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.sTwLNd?x=8905701272164",
+                            "pairuid": "58483889639"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.nhfbgA?x=8905701272164",
+                            "pairuid": "53345671818"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-02-K1",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.1D0gppT?x=8905701272157",
+                            "pairuid": "82689342685"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BAYcDE?x=8905701272157",
+                            "pairuid": "80707478350"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BohuL_?x=8905701272157",
+                            "pairuid": "81381000574"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.avDovY?x=8905701272157",
+                            "pairuid": "39614623330"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1PMafF-?x=8905701272157",
+                            "pairuid": "95941727231"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.13t-kKK?x=8905701272157",
+                            "pairuid": "72880153876"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "SL0484A-02-8K10-888",
+            "uid": "o4s.in/22F.1FauHbT",
+            "packingInfo": [
+                {
+                    "itemcode": "SL0484A-02-K9",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.13OVLIj?x=8905701272133",
+                            "pairuid": "72351569069"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.17h4FiT?x=8905701272133",
+                            "pairuid": "76958202653"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.n4yCLz?x=8905701272133",
+                            "pairuid": "52696237437"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1KTd0CU?x=8905701272133",
+                            "pairuid": "90691076894"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.DMTuW8?x=8905701272133",
+                            "pairuid": "14335576072"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.gQQ_Ov?x=8905701272133",
+                            "pairuid": "45540435513"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.WYP1IX?x=8905701272133",
+                            "pairuid": "34936722593"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.phfWCu?x=8905701272133",
+                            "pairuid": "55493133112"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-02-K8",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.VAYqj2?x=8905701272126",
+                            "pairuid": "33462897474"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.14iMF4E?x=8905701272126",
+                            "pairuid": "73758470414"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1M8VnYH?x=8905701272126",
+                            "pairuid": "92484343953"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.sYC2WU?x=8905701272126",
+                            "pairuid": "58555639838"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.S5x1cS?x=8905701272126",
+                            "pairuid": "30164130204"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.eyAyxG?x=8905701272126",
+                            "pairuid": "43959176912"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.OdL7zI?x=8905701272126",
+                            "pairuid": "26429652818"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.sfxafo?x=8905701272126",
+                            "pairuid": "58685540978"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-02-K10",
+                    "quantity": 8.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.tykLwU?x=8905701272140",
+                            "pairuid": "60074581662"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1769k-2?x=8905701272140",
+                            "pairuid": "76338884546"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.rSwvFy?x=8905701272140",
+                            "pairuid": "57393517564"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.KgYEh7?x=8905701272140",
+                            "pairuid": "22188452551"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.bReLfh?x=8905701272140",
+                            "pairuid": "40192006763"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.VfQF6i?x=8905701272140",
+                            "pairuid": "33980740012"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.Q6v5rG?x=8905701272140",
+                            "pairuid": "28032916816"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ftkAG-?x=8905701272140",
+                            "pairuid": "44958262335"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemcode": "SL0484A-04-11K1-6666",
+            "uid": "o4s.in/22F.14AP6Ah",
+            "packingInfo": [
+                {
+                    "itemcode": "SL0484A-04-K11",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.gOPP-Y?x=8905701289032",
+                            "pairuid": "45506469858"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.1BOJwML?x=8905701289032",
+                            "pairuid": "80938509717"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.tPFDAn?x=8905701289032",
+                            "pairuid": "59479216817"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.vHak5T?x=8905701289032",
+                            "pairuid": "61498122589"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.17LMjY2?x=8905701289032",
+                            "pairuid": "76593944706"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.16Prp1-?x=8905701289032",
+                            "pairuid": "75595460735"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-04-K13",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.hgEQmY?x=8905701289056",
+                            "pairuid": "46879321122"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.17H4BSZ?x=8905701289056",
+                            "pairuid": "76521977635"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.ljjVJd?x=8905701289056",
+                            "pairuid": "51232765159"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.QXD1CV?x=8905701289056",
+                            "pairuid": "28474348319"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15uMPx7?x=8905701289056",
+                            "pairuid": "75033583303"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.vRkZ3H?x=8905701289056",
+                            "pairuid": "61668470993"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-04-K1",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.QoYS8U?x=8905701289063",
+                            "pairuid": "28765176350"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.eyn_qo?x=8905701289063",
+                            "pairuid": "43969408306"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.gYNx7G?x=8905701289063",
+                            "pairuid": "45673853392"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.vzMXec?x=8905701289063",
+                            "pairuid": "62232599078"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.15A5bym?x=8905701289063",
+                            "pairuid": "74257424176"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.CNaCJL?x=8905701289063",
+                            "pairuid": "13280265429"
+                        }
+                    ]
+                },
+                {
+                    "itemcode": "SL0484A-04-K12",
+                    "quantity": 6.0,
+                    "pairdetail": [
+                        {
+                            "pairqr": "o4s.in/21F.SIuEet?x=8905701289049",
+                            "pairuid": "30381500983"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.li3ny8?x=8905701289049",
+                            "pairuid": "51205054216"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.PKau0X?x=8905701289049",
+                            "pairuid": "27188756513"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.bwDUSB?x=8905701289049",
+                            "pairuid": "40705058571"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.DUIZgP?x=8905701289049",
+                            "pairuid": "14466824857"
+                        },
+                        {
+                            "pairqr": "o4s.in/21F.PFruqe?x=8905701289049",
+                            "pairuid": "27109330216"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

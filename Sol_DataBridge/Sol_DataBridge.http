@@ -1,0 +1,6 @@
+@Sol_DataBridge_HostAddress = http://localhost:5189
+
+GET {{Sol_DataBridge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
